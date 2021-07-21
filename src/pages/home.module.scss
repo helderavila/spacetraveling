@@ -1,1 +1,44 @@
 // TODO
+.container {
+  width: 100%;
+}
+
+.posts {
+  margin: 0 auto;
+  max-width: 1120px;
+}
+
+.post {
+  display: block;
+  margin-bottom: 48px;
+
+  strong {
+    display: block;
+    font-size: 1.75rem;
+    color: var(--gray-50);
+    margin-bottom: 8px;
+    transition: color 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--purple-500);
+    }
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: var(--gray-100);
+  }
+}
+
+.postInfo {
+  margin-top: 24px;
+  display: flex;
+  gap: 24px;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
