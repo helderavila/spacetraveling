@@ -1,6 +1,23 @@
 // TODO
 .container {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  > button {
+    color: var(--purple-500);
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-top: 3rem;
+    border: 0;
+    background: transparent;
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.7);
+    }
+  }
 }
 
 .posts {
